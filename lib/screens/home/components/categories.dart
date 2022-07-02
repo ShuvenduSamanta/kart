@@ -1,4 +1,6 @@
 //stateful widget
+// ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors
+
 import 'package:flutter/material.dart';
 
 import '../../../constants.dart';
@@ -9,7 +11,7 @@ class Categories extends StatefulWidget {
 }
 
 class _CategoriesState extends State<Categories> {
-  List<String> catagories = ["Hand Bag", "jwellery", "footwear", "Dresses"];
+  List<String> catagories = ["Hardware", "Software", "Wear", "Interest"];
   int selectIndex = 0;
   @override
   Widget build(BuildContext context) {
